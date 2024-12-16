@@ -3,7 +3,7 @@ import re
 import shutil
 
 # Paths
-posts_dir = r"C:\Users\admin\Documents\Git Repos\iac-docs\docs"  # Content posts directory
+posts_dir = r"C:\Users\admin\Documents\Git Repos\iac-docs\docs\img"  # Content posts directory
 attachments_dir = r"C:\Users\admin\Documents\Obsidian Vault\attachments"  # Obsidian attachments directory
 static_images_dir = r"C:\Users\admin\Documents\Obsidian Vault\iac-wiki\img"  # Hugo static images directory
 
@@ -22,7 +22,7 @@ for root, _, files in os.walk(posts_dir):
             # Step 3: Replace image links and ensure URLs are correctly formatted
             for image in images:
                 # Prepare the Markdown-compatible link with %20 replacing spaces
-                markdown_image = f"[Image Description](/img/{image.replace(' ', '%20')})"
+                markdown_image = f"[Image Description](img/{image.replace(' ', '%20')})"
                 content = content.replace(f"[[{image}]]", markdown_image)
                 
                 # Step 4: Copy the image to the Hugo static/images directory if it exists
