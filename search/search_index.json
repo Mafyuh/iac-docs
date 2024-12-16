@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"iac-wiki","text":"<p>Documentation for my Homelab</p>"},{"location":"automations/","title":"Index","text":""},{"location":"kubernetes/","title":"Index","text":""},{"location":"kubernetes/#sample","title":"Sample","text":"<p>This is a test</p>"}]}
