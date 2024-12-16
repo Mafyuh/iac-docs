@@ -2,7 +2,7 @@
 # https://blog.networkchuck.com/posts/my-insane-blog-pipeline/
 
 # Set variables for Obsidian to Hugo copy
-$sourcePath = "C:\Users\admin\Documents\Obsidian Vault\iac-wiki\docs"
+$sourcePath = "C:\Users\admin\Documents\Obsidian Vault\iac-wiki"
 $destinationPath = "C:\Users\admin\Documents\Git Repos\iac-docs\docs"
 
 # Set Github repo 
