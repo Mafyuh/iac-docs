@@ -5,7 +5,7 @@ import shutil
 # Paths
 posts_dir = r"C:\Users\admin\Documents\Git Repos\iac-docs\docs"  # Content posts directory
 attachments_dir = r"C:\Users\admin\Documents\Obsidian Vault\attachments"  # Obsidian attachments directory
-static_images_dir = r"C:\Users\admin\Documents\Obsidian Vault\iac-wiki\img"  # Hugo static images directory
+static_images_dir = r"C:\Users\admin\Documents\Git Repos\iac-docs\docs\img"  # Hugo static images directory
 
 # Step 1: Traverse all files in the posts directory (including subdirectories)
 for root, _, files in os.walk(posts_dir):
